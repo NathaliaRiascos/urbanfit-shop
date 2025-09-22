@@ -1100,6 +1100,18 @@
         },
         "content": {
           "content": "Contenido"
+        },
+        "image_object_position": {
+          "label": "Posición de la imagen principal",
+          "options__1": { "label": "Arriba" },
+          "options__2": { "label": "Centro" },
+          "options__3": { "label": "Abajo" },
+        },
+        "image_2_object_position": {
+          "label": "Posición de la segunda imagen",
+          "options__1": { "label": "Arriba" },
+          "options__2": { "label": "Centro" },
+          "options__3": { "label": "Abajo" },
         }
       },
       "blocks": {

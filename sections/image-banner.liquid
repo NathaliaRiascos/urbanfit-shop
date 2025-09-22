@@ -27,6 +27,15 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+
+
+  .media > img.Banner__image_1 {
+     object-position: {{ section.settings.image_object_position | default: 'center center' }};
+  }
+
+   .media > img.Banner__image_2{
+     object-position: {{ section.settings.image_2_object_position | default: 'center center' }};
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -60,7 +69,7 @@
       {%- liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         if section.settings.image_2 != blank
-          assign image_class = 'banner__media-image-half'
+          assign image_class = 'banner__media-image-half Banner__image_1'
         endif
         if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
           assign sizes = stacked_sizes
@@ -92,7 +101,7 @@
       {%- liquid
         assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
         if section.settings.image != blank
-          assign image_class_2 = 'banner__media-image-half'
+          assign image_class_2 = 'banner__media-image-half Banner__image_2'
         endif
         if section.settings.image != blank and section.settings.stack_images_on_mobile
           assign sizes = stacked_sizes
@@ -175,6 +184,30 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "select",
+      "id": "image_object_position",
+      "label": "Object position (main image)",
+      "default": "center center",
+      "options": [
+        { "value": "top", "label": "t:sections.image-banner.settings.image_object_position.options__1.label" },
+        { "value": "center center", "label": "t:sections.image-banner.settings.image_object_position.options__2.label" },
+        { "value": "bottom", "label": "t:sections.image-banner.settings.image_object_position.options__3.label" },
+      ],
+      "info": "CSS object-position value for the main image."
+    },
+    {
+      "type": "select",
+      "id": "image_2_object_position",
+      "label": "Object position (second image)",
+      "default": "center center",
+      "options": [
+         { "value": "top", "label": "t:sections.image-banner.settings.image_2_object_position.options__1.label" },
+        { "value": "center center", "label": "t:sections.image-banner.settings.image_2_object_position.options__2.label" },
+        { "value": "bottom", "label": "t:sections.image-banner.settings.image_2_object_position.options__3.label" },
+      ],
+      "info": "CSS object-position value for the second image."
+    },
     {
       "type": "image_picker",
       "id": "image",

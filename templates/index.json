@@ -36,6 +36,8 @@
         "button"
       ],
       "settings": {
+        "image_object_position": "center center",
+        "image_2_object_position": "top",
         "image": "shopify://shop_images/pexels-maksgelatin-4348628.jpg",
         "image_2": "shopify://shop_images/pexels-bamboo-ave-677926128-29205093_1.jpg",
         "image_overlay_opacity": 40,

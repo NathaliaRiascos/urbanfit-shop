@@ -1255,6 +1255,18 @@
         },
         "show_text_below": {
           "label": "Container"
+        },
+        "image_object_position": {
+          "label": "Object position (main image)",
+          "options__1": { "label": "Top" },
+          "options__2": { "label": "Center" },
+          "options__3": { "label": "Bottom" },
+        },
+        "image_2_object_position": {
+          "label": "Object position (second image)",
+          "options__1": { "label": "Top" },
+          "options__2": { "label": "Center" },
+          "options__3": { "label": "Bottom" },
         }
       },
       "blocks": {
