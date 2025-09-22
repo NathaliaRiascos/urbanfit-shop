@@ -146,12 +146,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "our-shop": {
+      "type": "our-shop",
+      "settings": {
+        "title": "Our Shop",
+        "description": "Stop by our stores to learn the stories behind our products, get a personal styling session, or shop the latest in person. See our store locations.",
+        "image": "shopify://shop_images/Gemini_Generated_Image_c5vldhc5vldhc5vl.png",
+        "image_height": "small",
+        "image_overlay_opacity": 40,
+        "image_behavior": "zoom-in",
+      }
     }
   },
   "order": [
     "image_banner",
     "collection_list_QpfDEV",
     "newsletter_RKpYp6",
-    "featured_collection_4TCfca"
+    "featured_collection_4TCfca",
+    "our-shop"
   ]
 }

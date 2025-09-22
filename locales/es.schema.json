@@ -2443,6 +2443,86 @@
         "name": "Aplicaciones"
       }
     },
+    "our-shop": {
+      "name": "Nuestra tienda",
+      "settings": {
+        "heading": {
+          "label": "Título",
+          "default": "Nuestra tienda"
+        },
+        "description": {
+          "label": "Descripción",
+          "default": "Descubre nuestra gama de productos y encuentra algo que te encante."
+        },
+        "show_description": {
+          "label": "Mostrar descripción"
+        },
+        "image": {
+          "label": "Image 1"
+        },
+        "image_2": {
+          "label": "Image 2"
+        },
+        "image_overlay_opacity": {
+          "label": "Opacidad de sobreposición"
+        },
+        "image_height": {
+          "label": "Altura",
+          "options__1": {
+            "label": "Adaptar a la imagen"
+          },
+          "options__2": {
+            "label": "Pequeña"
+          },
+          "options__3": {
+            "label": "Mediana"
+          },
+          "options__4": {
+            "label": "Grande"
+          }
+        },
+        "content": {
+          "images-header": "Configuración de imágenes",
+          "content": "Configuración de contenido"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Izquierda"
+          },
+          "options__2": {
+            "label": "Centro"
+          },
+          "options__3": {
+            "label": "Derecha"
+          },
+          "label": "Alineación"
+        },
+        "mobile": {
+          "content": "Diseño móvil"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Izquierda"
+          },
+          "options__2": {
+            "label": "Centro"
+          },
+          "options__3": {
+            "label": "Derecha"
+          },
+          "label": "Alineación"
+        },
+        "stack_images_on_mobile": {
+          "label": "Apilar imágenes en móvil"
+        },
+        "show_text_below": {
+          "label": "Contenedor de texto"
+        }
+      },
+      "presets": {
+        "name": "Image banner"
+      }
+    },
     "video": {
       "name": "Video",
       "settings": {

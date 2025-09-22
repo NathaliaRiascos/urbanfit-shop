@@ -2965,6 +2965,86 @@
         "name": "Rich text"
       }
     },
+    "our-shop": {
+      "name": "Our shop",
+      "settings": {
+        "heading": {
+          "label": "Heading",
+          "default": "Our shop"
+        },
+        "description": {
+          "label": "Description",
+          "default": "Discover our range of products and find something you love."
+        },
+        "show_description": {
+          "label": "Show description"
+        },
+        "image": {
+          "label": "Image 1"
+        },
+        "image_2": {
+          "label": "Image 2"
+        },
+        "image_overlay_opacity": {
+          "label": "Opacidad de sobreposición"
+        },
+        "image_height": {
+          "label": "Altura",
+          "options__1": {
+            "label": "Adaptar a la primera imagen"
+          },
+          "options__2": {
+            "label": "Pequeño"
+          },
+          "options__3": {
+            "label": "Mediano"
+          },
+          "options__4": {
+            "label": "Grande"
+          }
+        },
+        "content": {
+          "images-header": "Images settings",
+          "content": "Content settings"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Alignment"
+        },
+        "mobile": {
+          "content": "Mobile layout"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Alignment"
+        },
+        "stack_images_on_mobile": {
+          "label": "Stack images"
+        },
+        "show_text_below": {
+          "label": "Container"
+        }
+      },
+      "presets": {
+        "name": "Image banner"
+      }
+    },
     "video": {
       "name": "Video",
       "settings": {
