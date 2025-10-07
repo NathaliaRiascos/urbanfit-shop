@@ -36,8 +36,8 @@
 
 .mega-menu__list {
   display: grid;
-  gap: 1.8rem 4rem;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1.8rem var(--grid-desktop-vertical-spacing);
+  grid-template-columns: repeat(8, minmax(150px, 1fr));
   list-style: none;
 }
 
